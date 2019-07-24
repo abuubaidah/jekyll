@@ -16,15 +16,25 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-blog">
                         <div class="part-img">
-                            <img src="{{post.preview_image}}" alt="">
+                            {% if post.preview_image %}
+                                <img src="{{post.preview_image}}" alt="">
+                            {% else %}
+                                <img src="assets/img/blog-unavailable.jpg" alt="">
+                            {% endif %}
                             <div class="post-time">
-                                <p><i class="icofont-clock-time"></i>{{ "now" | date: "%R"}}<span><i class="icofont-calendar"></i> {{ post.date | date: "%-d.%m.%Y %a"}}</span></p>
+                                <p>
+                                    {% if post.date %}
+                                    <span class="single-line"><i class="icofont-clock-time"></i>{{ post.date | date: "%I:%M %p"}}</span>
+                                    {% endif %}
+                                    
+                                    <span class="single-line"><i class="icofont-calendar"></i> {{ post.date | date: "%-d.%m.%Y %a"}}</span>
+                                </p>
                             </div>
                         </div>
                         <div class="part-text">
                             <h3>
                                 <a href="{{ post.url | relative_url }}">
-                                    <!-- Replay market to underline --> {{ post.title | truncatewords: 8, "..." }}
+                                    {{ post.title | truncatewords: 8, "..." }}
                                 </a>
                             </h3>
                             <p>{{ post.content | truncatewords: 24, "..."}}</p>

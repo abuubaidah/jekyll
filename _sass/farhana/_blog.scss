@@ -52,7 +52,8 @@
     transition: .4s;
 }
 .blog-area .single-blog {
-	overflow-x: hidden;
+    overflow-x: hidden;
+    margin-bottom: 40px;
 }
 .blog-area .single-blog .part-img {
 	position: relative;
@@ -89,8 +90,9 @@
 .blog-area .single-blog .part-img .post-time p span i {
 	margin-right: 8px;
 }
-.blog-area .single-blog .part-img .post-time p span {
-	margin-left: 20px;
+.blog-area .single-blog .part-img .post-time p span.single-line {
+    margin: 0 10px;
+    display: inline-block;
 }
 .blog-area .single-blog .part-text {
     border-left: 10px solid #fafafa;

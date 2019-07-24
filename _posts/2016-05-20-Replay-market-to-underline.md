@@ -2,8 +2,8 @@
 layout: post
 title: "Replay market to Abuuubaidah"
 preview_image: assets/img/blog-3.jpg
-categories: junk
 author: "Bart Simpson"
+date: 2016-05-20 21:11:27
 meta: "Springfield"
 ---
 
