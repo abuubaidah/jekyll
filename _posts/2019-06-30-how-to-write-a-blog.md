@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Abu Ubaidah Is the best in the world"
+title: "bal iz the tal"
 time: '01:30 PM'
 preview_image: /assets/img/blog-2.jpg
 categories: junk
