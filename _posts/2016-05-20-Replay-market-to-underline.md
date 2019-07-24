@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Replay market to underline"
-preview_image: /assets/img/blog-3.jpg
+preview_image: assets/img/blog-3.jpg
 categories: junk
 author: "Bart Simpson"
 meta: "Springfield"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "I am the ubaidah from bd"
-preview_image: /assets/img/blog-1.jpg
+preview_image: assets/img/blog-1.jpg
 categories: junk
 author: "Bart Simpson"
 meta: "Springfield"
