@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Farhana - One Page Business Agency Template</title>
+  <title>{{ site.title }}</title>
   {%- seo -%}
   <!-- google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700" rel="stylesheet">
@@ -16,7 +16,7 @@
   <!-- bootstrap css -->
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/bootstrap.min.css">
   <!-- style css -->
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   {%- feed_meta -%}
   
 </head>
