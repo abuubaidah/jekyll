@@ -1,12 +1,11 @@
 # Site settings
 title: "Farhana - One Page Business Agency Template"
-# url: "https://abuubaidah.github.io"
 url: "https://abuubaidah.github.io"
 baseurl: "/jekyll"
 logo: "/assets/img/logo.png"
 
 # Build settings
 markdown: kramdown
-theme: farhana
+theme: Farhana
 plugins:
   - jekyll-feed
