@@ -15,16 +15,7 @@
       </div>
       <div class="col-xl-9 col-lg-10 d-flex align-items-center">
         <div class="main-menu">
-          <nav>
-            <ul>
-              {%- for path in page_paths -%}
-                {%- assign my_page = site.pages | where: "path", path | first -%}
-                {%- if my_page.title -%}
-                <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
-                {%- endif -%}
-              {%- endfor -%}
-            </ul>
-          </nav>
+            {% include nav.html %}
         </div>
       </div>
     </div>

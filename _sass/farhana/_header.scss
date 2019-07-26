@@ -58,11 +58,14 @@
 }
 .header-area {
     width: 100%;
-	background: #131313;
+    position: absolute;
+    left: 0;
+    top: 0;
     z-index: 4;
 }
 .fixed-navbar {
 	position: fixed;
+	background: #131313;
 }
 .header-area ul li ul {
     display: none;
